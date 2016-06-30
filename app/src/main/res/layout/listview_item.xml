@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/background"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/lv_item_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/blue_dark"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:id="@+id/lv_item_company"
+            android:text="公司"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_marginLeft="4dp"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/theme_brown"
+            android:id="@+id/lv_item_industryname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="产品名"/>
+        <TextView
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginTop="10dp"
+            android:id="@+id/lv_item_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="内容"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

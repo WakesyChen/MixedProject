@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hz6_23_spinner">
+
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.Spinner">
+
+        </activity>
+
+        <activity android:name="com.example.Spinner_img">
+
+        </activity>
+
+        <activity android:name="com.imagegame.ImageGame">
+
+
+        </activity>
+        <activity android:name="com.caiquan.Game"></activity>
+
+        <activity android:name="com.health.Intent1"></activity>
+        <activity android:name="com.health.Intent2"></activity>
+
+        <activity android:name="com.servey.ServeyActivity"></activity>
+        <activity android:name="com.servey.ServeySecond"></activity>
+
+        <activity android:name="com.day6_27_asynctask.Img_download"></activity>
+        <activity android:name="com.day6_27_json2.JsonSpinner2"></activity>
+        <activity android:name="com.day6_27_json2.Weather"></activity>
+        <activity android:name="com.day6_28_listview.ListViewDemo"></activity>
+
+    </application>
+
+</manifest>
